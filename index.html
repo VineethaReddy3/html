@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>first page</title>
+</head>
+<body link="blue" vlink="red" alink="green">
+    **************1.Headings*******************<br>
+    h1>h2>h3>h4>h5>h6
+    <h1>Hello</h1>
+    <h2>Hello</h2>
+    <h3>Hello</h3>
+    <h4>Hello</h4>
+    <h5>Hello</h5>
+    <h6>Hello</h6>
+    <hr>
+    ******************2.Text format****************<br>
+    tags used are bold/strong, italic/em ,underline(u tag)<br>
+    empty tags are br hr --no closing tags<br>
+    Bold - <b>Hello</b><br>
+    italic - <i>Hello</i><br>
+    emphasis tag - <em>Hello</em><br>
+    strong - <strong>Hello</strong><br>
+    subscript - 10<sub>2</sub><br>
+    superscript - 10<sup>2</sup><br>
+    horizantal line - <hr>
+    underline - <u>Hello</u>
+    highlight - Hello this is <mark>highlight text</mark>
+    striked text - <del>Hello</del>
+    <hr>
+    ***************3.Hyperlinks*****************<br>
+    for hyperlink we  use anchor tag <br>
+    Hello,click <a href="download.jpeg">here</a> for dog image.(It opens in same tab)<br>
+    To open in new tab,click <a href="download.jpeg" target="_blank">here </a>.<br>
+    <hr>
+    *********************4.Inserting image in website***********
+    to insert image we use img tag along with source src.<br>
+    <img src = "download.jpeg"><br>
+    we can also adjust its height and width <br>
+    <img src ="download.jpeg" heigth="500" width="500"><br>
+    if image not found we can display the alternate text<br>
+    <img src="download1.jpeg" alt="image not found"><br>
+
+    we can add colours to links like ,active link ,visited link with diff color for each.<br>
+    Click <a href = "download.jpeg" target ="_blank" >here</a><br>
+    <hr>
+    *************************5.Tables*******************
+    <table width="300" height="300" align="center" border="1" cellpadding="10" cellspacing="10">
+        <th>Sno</th><th>Name</th>
+        <tr align="center"><td>4201</td><td>Niharika</td></tr>
+        <tr align="right"><td>4208</td><td>Vineetha</td></tr>
+        <tr align="left"><td>4211</td><td>Hema</td></tr>
+    </table>
+<hr>
+***********************6.Lists********************<br>
+3 types of lists ordered,unordered  and definition lists<br>
+<ol><li>Vineetha</li>
+<li>Hema</li>
+<li>Niharika</li>
+</ol><br>
+<ol type="a"><li>Vineetha</li>
+    <li>Hema</li>
+    <li>Niharika</li>
+    </ol>
+<br>
+<ol start="5"><li>Vineetha</li>
+    <li>Hema</li>
+    <li>Niharika</li>
+    </ol>
+<br>
+----unordered list-circles ,squares etc----
+<ul><li>Vineetha</li>
+    <li>Hema</li>
+    <li>Niharika</li>
+    </ul>
+    <br>
+<ul type="square"><li>Vineetha</li>
+        <li>Hema</li>
+        <li>Niharika</li>
+        </ul>
+        <br>
+<ul type="none"><li>Vineetha</li>
+            <li>Hema</li>
+            <li>Niharika</li>
+            </ul>
+<br>
+**************************7.Frames in html********************<br>
+---old technique<br>
+showing multiple webpages in single page <br>
+it is not recommended <br>
+***************8.Forms in html****************<br>
+--gives user interaction<br>
+--name is used to identify form element<br>
+--value attribute is set to replace on  and off with some value to identify type in radio buttons ,chcekbox<br>
+forms contains 3 attributes action (server url)-which server our data should go-fb or gmail ,method(get/post)-get (unsecure -gives data to server by username and pass starting with ?)(post-secure-but data reaches server in hidden form),target(self/target)<br>
+-input elemts in forms include text,password,checkbox,radio,button,hidden,date,email,file etc <br>
+<h1>Registration Form</h1>
+<form method = "post" action = "" target="">
+Username : <input type="text" name="username"><br><br>
+Password : <input type="password"><br><br>
+Subjects : <ul type="none"> <li> <input type="checkbox">Python</li> <li><input type = "checkbox">Java </li><li><input type ="Checkbox">HTML </li></ul><br>
+Gender   :<ul type ="none"><li><input type ="radio" name="g" value="m">Male </li><li><input type="radio" name="g" value="f">Female</li></ul><br>
+Dob   : <input type="date"><br><br>
+Email  : <input type="email"><br><br>
+Passport photo : <input type="file"><br>
+Year of study: <select><option value="1">1</option>
+<option>2</option><option>3</option><option>4</option></select><br><br>
+About yourself:<textarea></textarea><br><br>
+<button>Submit</button>
+</form>
+<br><hr>
+*************************9.inserting video****************<br>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8SsjV1ZZnyM?si=JevrxyBbXSFVGyaL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+
+</body>
+</html>
